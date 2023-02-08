@@ -1,1 +1,14 @@
-.container {}
+.banner {
+    background-image: url("./Assets/bg-gradient.png");
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

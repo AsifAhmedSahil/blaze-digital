@@ -10,28 +10,31 @@ const NavigationBar = () => {
                     alt="Logo"
                     className="w-60"
                 />
-                <h1 className="text-white text-xl font-medium ml-4">
-                    Company Name
-                </h1>
             </div>
             <div className="flex items-center">
                 <a
                     href="#"
-                    className="text-black hover:text-gray-400 mr-4"
+                    className="text-black hover:text-gray-400 mr-6"
                 >
                     Home
                 </a>
                 <a
                     href="#"
-                    className="text-black hover:text-gray-400 mr-4"
+                    className="text-black hover:text-gray-400 mr-6"
                 >
-                    About
+                    Services
                 </a>
                 <a
                     href="#"
-                    className="text-black hover:text-gray-400 mr-4"
+                    className="text-black hover:text-gray-400 mr-6"
                 >
-                    Contact
+                    Contact Us
+                </a>
+                <a
+                    href="#"
+                    className="text-white font-bold hover:bg-red-600 mr-6 bg-red-500 px-3 py-3 rounded-lg"
+                >
+                    Get a Quote
                 </a>
             </div>
         </nav>

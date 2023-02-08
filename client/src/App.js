@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import NavigationBar from './components/NavigationBar';
+import HomePage from './Pages/HomePage/HomePage';
 
 
 function App() {
   return (
-    <div className="px-96 py-10">
+    <div className="px-96 py-10 banner" >
       <NavigationBar></NavigationBar>
-      <h1 className='text-red-800'>Welcome,Blaze Digital</h1>
-      <p>Ignite Your Presence</p>
+      <HomePage></HomePage>
     </div>
   );
 }
