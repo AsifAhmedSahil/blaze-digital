@@ -15,6 +15,12 @@ const HomePage = () => {
                     <img src={header_image} alt=""></img>
                 </div>
             </section>
+            <section className=' p-3'>
+                <h3 className='text-center text-gray-300 text-xl font-bold'>Our Gold Clients</h3>
+                <div className='mb-24'>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/East_Delta_University_logo.png" alt="" className='w-20' />
+                </div>
+            </section>
         </div>
     );
 };
