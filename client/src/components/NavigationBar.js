@@ -32,7 +32,7 @@ const NavigationBar = () => {
                 </a>
                 <a
                     href="#"
-                    className="text-white font-bold hover:bg-red-600 mr-6 bg-red-500 px-3 py-3 rounded-lg"
+                    className="text-white font-bold hover:bg-red-600 mr-6 bg-red-500 px-3 py-3 rounded-md"
                 >
                     Get a Quote
                 </a>
