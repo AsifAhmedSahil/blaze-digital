@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../Assets/Logo_Black.png'
+import Logo from '../../../Assets/Logo_Black.png'
 
 const NavigationBar = () => {
     return (
@@ -23,6 +23,12 @@ const NavigationBar = () => {
                     className="text-black hover:text-gray-400 mr-6"
                 >
                     Services
+                </a>
+                <a
+                    href="/login"
+                    className="text-black hover:text-gray-400 mr-6"
+                >
+                    Login
                 </a>
                 <a
                     href="#"
